@@ -1,13 +1,44 @@
-.row-spacing {
-  margin: 1rem auto;
+body {
+  background: #fff;
+}
+.top-bar {
+  padding: 0.1rem;
+  background: #46898e;
+}
+.header {
+  background: #CCC55B;
+}
+.menu-top ul li a {
+  color: #fff;
+  font-size: 1.1rem;
+}
+.menu-top ul {
+  background: #46898e;
+}
+.quilts {
+  background: #9C839E;
+}
+.profile {
+  background: #CCC55B;
+}
+.main-text {
+  background: #46898e;
+  text-align: center;
+}
+.main-text p {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 0;
+  padding: 2rem 0;
 }
 .footer {
-  background: #A1A1A1;
-  height: 100%;
+  background: #46898e;
+  height: 65%;
   padding-top: 2rem;
-  border-top: 4px solid #333;
 }
 .logo img {
-  width: 50%;
   margin: 1rem;
+}
+.row-spacing {
+  padding: 2rem 0;
 }
