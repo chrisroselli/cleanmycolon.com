@@ -8,6 +8,9 @@ body {
 .header {
   background: #CCC55B;
 }
+.menu-styles ul li:hover {
+background: #2E7378;
+}
 .menu-top ul li a {
   color: #fff;
   font-size: 1.1rem;
@@ -24,21 +27,42 @@ body {
 .main-text {
   background: #46898e;
   text-align: center;
+  h2 {
+    color: #fff;
+    margin-bottom: 0;
+    padding: 2rem 0;
+  }
+  p {
+    color: #fff;
+    font-size: 1rem;
+  }
 }
-.main-text p {
-  color: #fff;
-  font-size: 2rem;
-  margin-bottom: 0;
-  padding: 2rem 0;
-}
+
 .footer {
   background: #46898e;
   height: 65%;
   padding-top: 2rem;
+  p {
+    margin: 0;
+  }
 }
 .logo img {
   margin: 1rem;
 }
 .row-spacing {
   padding: 2rem 0;
+}
+/* connie jones page */
+.connie-main-image {
+  background-image: url("/assets/img/connie-2000x1107.jpg");
+  height: 25rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+/*  services page */
+.services {
+  h2 {
+    text-align: center;
+  }
 }
