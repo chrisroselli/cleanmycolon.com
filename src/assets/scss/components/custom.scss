@@ -52,6 +52,7 @@ background: #2E7378;
 .row-spacing {
   padding: 2rem 0;
 }
+
 /* connie jones page */
 .connie-main-image {
   background-image: url("/assets/img/connie_beach.jpg");
@@ -65,4 +66,43 @@ background: #2E7378;
   h2 {
     text-align: center;
   }
+}
+
+/* preparation */
+.bed-main-image {
+  background-image: url("/assets/img/bed.jpg");
+  height: 25rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+/* forms */
+.forms-main-image {
+  background-image: url("/assets/img/forms.jpg");
+  height: 25rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+/* blog */
+.blog-main-image {
+  background-image: url("/assets/img/connies_desk.jpg");
+  height: 25rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+/* contact */
+.contact-main-image {
+  background-image: url("/assets/img/contact.jpg");
+  height: 25rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.green-bkg {
+  background: #46898e;
 }
