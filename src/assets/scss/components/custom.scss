@@ -74,7 +74,7 @@ background: #2E7378;
   }
 }
 .phone {
-  text-align: center;
+  float: left;
   p {
   font-size: 1.6rem;
   padding: 1rem;
@@ -213,12 +213,7 @@ table tbody tr:nth-child(2n) {
 .green-bkg {
   background: #46898e;
 }
-.contact-form {
 
-  h2 {
-  padding-left:
-  }
-}
 /* contact */
 .deals {
   text-align: center;
@@ -244,7 +239,7 @@ table tbody tr:nth-child(2n) {
 
 #social {
   margin: 15px 10px;
-  text-align: center;
+  float: right;
 }
 
 .smGlobalBtn { /* global button class */
