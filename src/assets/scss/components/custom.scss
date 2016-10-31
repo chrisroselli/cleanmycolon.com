@@ -1,9 +1,11 @@
 body {
-  background: #fff;
+  background: #46898e;
 }
 .top-bar {
-  padding: 0.1rem;
+  padding: 0;
   background: #46898e;
+  text-align: center;
+  height: 2.5rem;
 }
 .header {
   background: #CCC55B;
@@ -17,12 +19,19 @@ background: #2E7378;
 }
 .menu-top ul {
   background: #46898e;
+  display: inline-block;
 }
 .quilts {
   background: #9C839E;
 }
 .profile {
   background: #CCC55B;
+}
+.home-images {
+  text-align: center;
+  img {
+   padding: 1rem;
+ }
 }
 .main-text {
   background: #46898e;
@@ -40,19 +49,45 @@ background: #2E7378;
 
 .footer {
   background: #46898e;
-  height: 65%;
   padding-top: 2rem;
   p {
+    color: #fff;
     margin: 0;
+
   }
 }
-.logo img {
-  margin: 1rem;
+.footer-info {
+  padding: 1rem;
+  p a {
+    color: #fff;
+  }
+  p a:hover {
+    color: #CCC55B;
+  }
+}
+
+.logo {
+  text-align: center;
+  img {
+    margin: 1rem;
+    width: 150px;
+  }
+}
+.phone {
+  text-align: center;
+  p {
+  font-size: 1.6rem;
+  padding: 1rem;
+  font-weight: bold;
+  color: #2c2c2c;
+  }
 }
 .row-spacing {
   padding: 2rem 0;
 }
-
+.white-bkg {
+  background: #fff;
+}
 /* connie jones page */
 .connie-main-image {
   background-image: url("/assets/img/connie_beach.jpg");
@@ -66,8 +101,27 @@ background: #2E7378;
   h2 {
     text-align: center;
   }
+  h3 {
+    font-size: 1.3rem;
+    color: #ce1545;
+    padding-top: 1.5rem;
+  }
 }
-
+table thead {
+    background: #46898E;
+    color: #fff;
+    border: 1px solid #46898E;
+}
+table tbody {
+    border: 1px solid #46898E;
+    background-color: #ccc55b;
+}
+table tbody tr:nth-child(2n) {
+    background-color: #e1d853;
+}
+#services-fineprint {
+  font-size: .7rem;
+}
 /* preparation */
 .bed-main-image {
   background-image: url("/assets/img/bed.jpg");
@@ -75,24 +129,76 @@ background: #2E7378;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
+  background-attachment: fixed;
 }
 
 /* forms */
 .forms-main-image {
   background-image: url("/assets/img/forms.jpg");
-  height: 25rem;
+  height: 35rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
+  background-attachment: fixed;
+}
+.form-text-box {
+  text-align: center;
+  padding-top: 10%;
+}
+.form-text-link {
+  text-align: center;
+  padding-top: 1%;
+}
+#form-text {
+  font-size: 1.9rem;
+  font-weight: bold;
+  background: rgba(204, 197, 91, 0.75);
+  padding: 0.8rem;
+  margin: 0 8rem;
+}
+#form-text-link {
+  font-size: 1.3rem;
+  background: #ccc55b;
+  padding: 0.8rem;
+  margin: 0 35%;
+  border: 1px solid #fff;
+  font-weight: bold;
+  a {
+    color: #fff;
+  }
+  a:hover {
+    color: #46898E;
+  }
+}
+
+/* faq */
+.faq-text-box {
+  text-align: center;
+  padding-top: 5%;
+}
+#faq-text {
+  font-size: 1.9rem;
+  font-weight: bold;
+  padding: 0.8rem;
+  margin: 0 8rem;
 }
 
 /* blog */
+.blog-text-box {
+  text-align: center;
+}
+#blog-text {
+  font-size: 1.9rem;
+  padding: 0.8rem;
+  margin: 0 8rem;
+}
 .blog-main-image {
   background-image: url("/assets/img/connies_desk.jpg");
   height: 25rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
+  background-attachment: fixed;
 }
 
 /* contact */
@@ -101,8 +207,140 @@ background: #2E7378;
   height: 25rem;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center -10rem;
+  background-attachment: fixed;
 }
 .green-bkg {
   background: #46898e;
+}
+.contact-form {
+
+  h2 {
+  padding-left:
+  }
+}
+/* contact */
+.deals {
+  text-align: center;
+  h2 {
+    font-size: 1.5rem;
+  }
+  h2 a {
+    font-size: 1.5rem;
+    color: #46898E;
+  }
+  h2 a:hover {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+/********************
+ social media buttons
+ ********************/
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+#social {
+  margin: 15px 10px;
+  text-align: center;
+}
+
+.smGlobalBtn { /* global button class */
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #ddd;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6em;
+  border-radius: 27px;
+}
+
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+      border-color: #00ABE3;
+}
+
+/* google plus button class*/
+.googleplusBtn{
+    background: #e64522;
+}
+
+.googleplusBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d5"; /* add googleplus icon */
+}
+
+.googleplusBtn:hover{
+      color: #e64522;
+      background: #fff;
+      border-color: #e64522;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
+      border-color: #0094BC;
+}
+
+/* pinterest button class*/
+.pinterestBtn{
+    background: #cb2027;
+}
+
+.pinterestBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d2"; /* add pinterest icon */
+}
+
+.pinterestBtn:hover{
+      color: #cb2027;
+      background: #fff;
+      border-color: #cb2027;
 }
