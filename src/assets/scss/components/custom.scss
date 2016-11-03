@@ -5,7 +5,7 @@ body {
   padding: 0;
   background: #46898e;
   text-align: center;
-  height: 2.5rem;
+  line-height: 90%;
 }
 #connie-title {
   color: #fff;
@@ -18,7 +18,8 @@ body {
 #colon-title {
   color: #fff;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
 }
 .header {
   background: #CCC55B;
@@ -34,8 +35,14 @@ background: #2E7378;
   background: #46898e;
   display: inline-block;
 }
+.menu > li > a {
+  padding: 0.7rem 0.8rem;
+}
 .quilts {
   background: #9C839E;
+  img {
+    padding: 1rem 0;
+  }
 }
 .profile {
   background: #CCC55B;
@@ -97,8 +104,11 @@ background: #2E7378;
   color: #2c2c2c;
   }
 }
+.title-bar {
+  background: #46898E;
+}
 .row-spacing {
-  padding: 2rem 0;
+  padding: 1rem 0 2rem 0;
 }
 .white-bkg {
   background: #fff;
@@ -196,6 +206,7 @@ table tbody tr:nth-child(2n) {
   font-weight: bold;
   padding: 0.8rem;
   margin: 0 8rem;
+  font-style: italic;
 }
 
 /* blog */
@@ -351,4 +362,31 @@ table tbody tr:nth-child(2n) {
       color: #cb2027;
       background: #fff;
       border-color: #cb2027;
+}
+
+/* mobile */
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .phone {
+    float: none;
+    text-align: center;
+  }
+  #connie-title {
+    font-size: 1.8rem;
+  }
+  #colon-title {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 63.9375em) {
+
+.bed-main-image {
+    background-position: center;
+}
+.blog-main-image {
+  background-position: center;
+ }
+ .contact-main-image {
+  background-position: center;
+ }
 }
