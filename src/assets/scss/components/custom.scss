@@ -38,6 +38,9 @@ background: #2E7378;
 .menu > li > a {
   padding: 0.7rem 0.8rem;
 }
+.menu .active > a {
+    background: #1C6C72;
+}
 .quilts {
   background: #9C839E;
   img {
@@ -85,7 +88,26 @@ background: #2E7378;
     color: #CCC55B;
   }
 }
-
+.footer-menu {
+  ul {
+    text-align: center;
+  }
+  ul li {
+    display:inline-block;
+    color: #d6ce77;
+  }
+  ul li a {
+    font-size: 1rem;
+    color: #fff;
+  }
+  ul li a:hover {
+    color: #d6ce77;
+  }
+}
+.footer-bkg {
+  background: #9C839E;
+  padding-top: 0.5rem;
+}
 .logo {
   text-align: center;
   img {

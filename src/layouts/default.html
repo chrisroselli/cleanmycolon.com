@@ -33,31 +33,15 @@
       		<div class="title-bar-title">Menu</div>
       </div>
     </div>
-    <div class="top-bar" id="example-menu">
-          <div class="small-12 small-centered columns menu-top menu-styles">
-    				<ul class=" medium-horizontal vertical dropdown menu" data-responsive-menu="accordion medium-dropdown">
-    						<li><a href="/">Home</a></li>
-    						<li><a href="/connie-jones.html">Connie Jones</a></li>
-                <li><a href="/service.html">Service &amp; Fees</a></li>
-                <li><a href="/preparation.html">Preparation &amp; After Care</a></li>
-                <li><a href="/forms.html">Forms</a></li>
-                <li><a href="/faq.html">FAQ</a></li>
-                <li><a href="/blog.html">Blog</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-                <li><a href="/deals.html">Deals!</a></li>
-    				</ul>
-            </div>
-    </div>
 <!-- End Header -->
 
-
-    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
     {{> body}}
-
 
 <!-- Start Footer -->
     <div class="footer">
+
       <div class="row">
+
       <div class="small-12 medium-6 columns footer-info">
         <p><b>Constance Jones - Colon Hydrotherapy</b></p>
         <p>Center for Progressive Therapies</p>
@@ -66,13 +50,29 @@
         <p>Email: <a href="mailto:connie@cleanmycolon.com?Subject=Hello%20again" target="_top">connie@cleanmycolon.com</a></p>
         <p>Phone: (860) 287-4558</p>
       </div>
+
       <div class="small-12 medium-6 columns footer-info">
         <img src="/assets/img/badges.png">
       </div>
+
     </div>
-    <div class="row">
+
+    <div class="row footer-bkg">
       <div class="small-12 columns">
-        <p style="text-align:center; padding:5px;">&copy; 2016 Constance Jones</p>
+        <div class="footer-menu">
+          <ul>
+              <li><a href="/">Home</a></li>
+              <li>| <a href="/connie-jones.html">Connie Jones</a></li>
+              <li class="active">| <a href="/service.html">Service &amp; Fees</a></li>
+              <li>| <a href="/preparation.html">Preparation &amp; After Care</a></li>
+              <li>| <a href="/forms.html">Forms</a></li>
+              <li>| <a href="/faq.html">FAQ</a></li>
+              <li>| <a href="/blog.html">Blog</a></li>
+              <li>| <a href="/contact.html">Contact</a></li>
+              <li>| <a href="/deals.html">Deals!</a></li>
+          </ul>
+        </div>
+        <p style="text-align:center; padding:5px; font-size:.9rem;">&copy; 2016 Constance Jones</p>
     </div>
   </div>
     <script src="{{root}}assets/js/app.js"></script>

@@ -1,3 +1,18 @@
+<div class="top-bar" id="example-menu">
+  <div class="small-12 small-centered columns menu-top menu-styles">
+    <ul class=" medium-horizontal vertical dropdown menu" data-responsive-menu="accordion medium-dropdown">
+        <li><a href="/">Home</a></li>
+        <li><a href="/connie-jones.html">Connie Jones</a></li>
+        <li><a href="/service.html">Service &amp; Fees</a></li>
+        <li><a href="/preparation.html">Preparation &amp; After Care</a></li>
+        <li><a href="/forms.html">Forms</a></li>
+        <li><a href="/faq.html">FAQ</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+        <li class="active"><a href="/contact.html">Contact</a></li>
+        <li><a href="/deals.html">Deals!</a></li>
+    </ul>
+  </div>
+</div>
 <div class="contact-main-image">
 <div class="row">
 
@@ -51,20 +66,20 @@
 </div>
 <div class="small-12 large-8 large-centered contact-form columns">
 <div id="contactForm">
-<form id="myForm" action="https://formspree.io/chrisroselli@gmail.com" method="post" data-abide>
+<form id="myForm" action="/webformmailer.php" method="post" data-abide>
 
     <h2>Send Me A Message</h2>
     <div class="small-12 large-6 columns">
     <label>First Name:</label>
-    <input name="First Name" type="text" placeholder="First Name" required>
+    <input name="First Name" type="text" required>
     </div>
     <div class="small-12 large-6 columns">
     <label>Last Name:</label>
-    <input name="Last Name" type="text" placeholder="Last Name" required>
+    <input name="Last Name" type="text" required>
     </div>
 <div class="small-12 columns">
     <label>Phone:</label>
-    <input name="Phone" type="text" placeholder="Last Name" required>
+    <input name="Phone" type="text" placeholder="(XXX)XXX-XXXX" required>
 
     <label>Email:</label>
     <input name="Email" type="email" placeholder="username@address.com" required>
@@ -73,6 +88,9 @@
     <textarea name="Comment" placeholder="Enter your message here" required></textarea>
 
     <input type="submit" class="alert radius button" value="Send Message">
+    <input type="hidden" name="form_order" value="alpha"/>
+    <input type="hidden" name="form_delivery" value="hourly_digest"/>
+    <input type="hidden" name="form_format" value="html"/>
   </div>
   </form>
 </div>
