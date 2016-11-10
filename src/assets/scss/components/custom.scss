@@ -1,6 +1,7 @@
 body {
   background: #46898e;
 }
+
 .top-bar {
   padding: 0;
   background: #46898e;
@@ -59,6 +60,11 @@ background: #2E7378;
 .main-text {
   background: #46898e;
   text-align: center;
+  h1 {
+    color: #fff;
+    margin-bottom: 0;
+    padding: 2rem 0;
+  }
   h2 {
     color: #fff;
     margin-bottom: 0;
@@ -147,8 +153,8 @@ background: #2E7378;
 /*  Service page */
 
 .service {
-  h2 {
-    text-align: center;
+  h1 {
+    font-size: 2.5rem;
   }
   h3 {
     font-size: 1.3rem;
@@ -264,7 +270,7 @@ table tbody tr:nth-child(2n) {
 /* contact */
 .deals {
   text-align: center;
-  h2 {
+  h1 {
     font-size: 1.5rem;
   }
   h2 a {
