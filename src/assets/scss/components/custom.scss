@@ -1,7 +1,12 @@
 body {
   background: #46898e;
 }
-
+.button {
+  background-color: #ce1545;
+  &:hover {
+    background-color: #e21248;
+  }
+}
 .top-bar {
   padding: 0;
   background: #46898e;
@@ -271,7 +276,12 @@ table tbody tr:nth-child(2n) {
 .deals {
   text-align: center;
   h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    color: #ce1545;
+    margin-bottom: 0;
+    padding: 2rem 0;
+    text-transform: uppercase;
+    font-weight: bold;
   }
   h2 a {
     font-size: 1.5rem;
@@ -282,7 +292,9 @@ table tbody tr:nth-child(2n) {
     color: #fff;
   }
   p {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+
   }
 }
 /********************
