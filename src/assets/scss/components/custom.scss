@@ -1,6 +1,17 @@
 body {
   background: #46898e;
 }
+a {
+  color: #e21248;
+  text-decoration: underline;
+  &:hover {
+    color: #46898e;
+
+  }
+}
+hr {
+  border-bottom: 1px solid #46898e;
+}
 .button {
   background-color: #ce1545;
   &:hover {
@@ -55,6 +66,9 @@ background: #2E7378;
 }
 .profile {
   background: #CCC55B;
+}
+.resources {
+  background: #fff;
 }
 .home-images {
   text-align: center;
