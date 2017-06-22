@@ -3,7 +3,6 @@ body {
 }
 a {
   color: #e21248;
-  text-decoration: underline;
   &:hover {
     color: #46898e;
 
@@ -205,7 +204,14 @@ table tbody tr:nth-child(2n) {
   background-repeat: no-repeat;
   background-position: center -15rem;
 }
-
+/* reviews */
+.thumbs-main-image {
+  background-image: url("/assets/img/thumbs_up.jpg");
+  height: 30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -80px;
+}
 /* forms */
 .forms-main-image {
   background-image: url("/assets/img/forms.jpg");
@@ -436,7 +442,10 @@ table tbody tr:nth-child(2n) {
 @media screen and (max-width: 63.9375em) {
 
 .bed-main-image {
-    background-position: center;
+  background-position: center;
+}
+.thumbs-main-image {
+  background-position: center;
 }
 .blog-main-image {
   background-position: center;
